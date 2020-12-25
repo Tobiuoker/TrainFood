@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/logIn"
+        android:background="@color/mainBack"
+        android:orientation="vertical"
+>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="297px"
+            android:src="@drawable/train_logo"
+            android:layout_marginTop="120px"
+            android:id="@+id/logo"
+
+    />
+    <TextView
+            android:text="Food for train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:id="@+id/title1"
+            android:textAlignment="center"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/main_font"
+    />
+    <TextView
+            android:text="Convenient way to eat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/title2"
+            android:textAlignment="center"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/main_font"
+    />
+    <TextView
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/loginLabel"
+            android:textAlignment="center"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/main_font"
+    />
+    <EditText
+            android:layout_width="390px"
+            android:id="@+id/loginText"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="350px"
+    />
+    <TextView
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/passwordLabel"
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/main_font"
+    />
+    <EditText
+            android:layout_width="390px"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="350px"
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogIn"
+            android:id="@+id/login"
+            android:layout_marginLeft="430px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/login_button"
+    />
+    <TextView
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/main_font"
+            android:id="@+id/signUp"
+    />
+
+</LinearLayout>

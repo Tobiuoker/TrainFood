@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.android_project">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".restaurant.restaurant_profile">
+        </activity>
+        <activity android:name=".restaurant.restaurant_addMenu">
+        </activity>
+        <activity android:name=".restaurant.restaurant_menu">
+        </activity>
+        <activity android:name=".deliverer.deliverer_profile">
+        </activity>
+        <activity android:name=".deliverer.deliverer_certain_myOrder">
+        </activity>
+        <activity android:name=".deliverer.deliverer_myOrders">
+        </activity>
+        <activity android:name=".deliverer.deliverer_certain_unassignedOrder">
+        </activity>
+        <activity android:name=".deliverer.deliverer_allOrders">
+        </activity>
+        <activity android:name=".passenger.passenger_profile">
+        </activity>
+        <activity android:name=".passenger.specific_order">
+        </activity>
+        <activity android:name=".passenger.my_orders">
+        </activity>
+        <activity android:name=".passenger.basket">
+        </activity>
+        <activity android:name=".passenger.rest_menu">
+        </activity>
+        <activity android:name=".passenger.restaurants_main">
+        </activity>
+        <activity android:name=".second_window">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mainBack">#CCDEAF</color>
+    <color name="navBar">#B5C59C</color>
+    <color name="altCellColor">#D0F19A</color>
+    <color name="button">#82A34D</color>
+    <color name="ordered">#EEDDDD</color>
+    <color name="onTheWay">#FAFF07</color>
+    <color name="received">#06FF01</color>
+    <color name="logout">#ED4444</color>
+</resources>

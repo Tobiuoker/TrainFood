@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="280px">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/cell"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="70px"
+                   android:layout_height="70px"
+                   android:src="@drawable/transparent_x"
+                   android:id="@+id/basket_remove"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="50px"
+        />
+
+        <ImageView android:layout_width="280px"
+                   android:layout_height="280px"
+                   android:id="@+id/basket_image"
+                   android:src="@drawable/lagman"
+                   android:layout_marginLeft="40px"
+
+        />
+
+        <LinearLayout android:layout_width="300px"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_gravity="center_vertical">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Lagman"
+                      android:id="@+id/basket_title"
+                      android:fontFamily="@font/main_font"
+                      android:layout_marginLeft="80px"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="300px"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_gravity="center_vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/basket_quantity"
+                      android:text="x2"/>
+            <Button android:layout_width="150px"
+                    android:layout_height="90px"
+                    android:text="24$"
+                    android:id="@+id/basket_price"
+                    android:background="@color/ordered"
+                    android:layout_marginLeft="-150px"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

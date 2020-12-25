@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".passenger.restaurants_main"
+        android:background="@color/mainBack"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="190px"
+                  android:orientation="horizontal"
+                  android:background="@color/navBar">
+
+
+        <ImageView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@drawable/arrow_1"
+                android:layout_marginTop="70px"
+                android:id="@+id/basket_return"
+                android:layout_marginLeft="60px"
+        />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Basket"
+                  android:fontFamily="@font/main_font"
+                  android:textSize="60px"
+                  android:layout_marginTop="50px"
+                  android:layout_marginLeft="350px"
+        />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            android:id="@+id/basket_recyclerview"
+            android:focusable="true"
+    />
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="210px"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="0px"
+                  android:background="@color/navBar"
+                  android:gravity="center_vertical">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Total: 92$"
+                  android:id="@+id/basket_total-price"
+                  android:textStyle="bold"
+                  android:textSize="70px"
+                  android:layout_weight="1"
+                  android:fontFamily="@font/main_font"
+                  android:textAlignment="center"/>
+
+        <Button android:layout_width="160px"
+                android:layout_height="80px"
+                android:text="Order"
+                android:id="@+id/basketOrder"
+                android:background="@color/button"
+                android:layout_marginRight="150px"
+        />
+    </LinearLayout>
+
+</LinearLayout>

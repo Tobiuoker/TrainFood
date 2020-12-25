@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/cell"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="280px"
+                   android:layout_height="280px"
+                   android:layout_marginLeft="50px"
+                   android:id="@+id/list_of_rest_image"
+                   android:src="@drawable/restlogo"
+
+        />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Paradise"
+                  android:id="@+id/list_of_rest_title"
+                  android:fontFamily="@font/main_font"
+                  android:layout_marginLeft="80px"
+                  android:layout_marginTop="112px"
+        />
+
+        <ImageView android:layout_width="50px"
+                   android:layout_height="50px"
+                   android:src="@drawable/arrow2"
+                   android:layout_marginLeft="-150px"
+                   android:layout_marginTop="120px"
+        />
+    </LinearLayout>
+</LinearLayout>

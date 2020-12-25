@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="280px">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/cell"
+                  android:orientation="horizontal">
+
+
+        <ImageView android:layout_width="280px"
+                   android:layout_height="280px"
+                   android:src="@drawable/lagman"
+                   android:id="@+id/specific_order_image"
+                   android:layout_marginLeft="50px"
+
+        />
+
+        <LinearLayout android:layout_width="300px"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_gravity="center_vertical">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Lagman"
+                      android:id="@+id/specific_order_title"
+                      android:fontFamily="@font/main_font"
+                      android:layout_marginLeft="80px"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="300px"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_gravity="center_vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/specific_order_quantity"
+                      android:layout_marginLeft="150px"
+                      android:text="x2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

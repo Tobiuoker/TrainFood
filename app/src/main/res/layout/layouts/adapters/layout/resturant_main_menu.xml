@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="280px">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/cell"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="280px"
+                   android:layout_height="280px"
+                   android:layout_marginLeft="40px"
+                   android:id="@+id/restaurant_menu_image"
+                   android:src="@drawable/ice_cream"
+
+        />
+
+        <LinearLayout android:layout_width="300px"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="20px">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Ice Cream"
+                      android:fontFamily="@font/main_font"
+                      android:id="@+id/restaurant_menu_title"
+                      android:layout_marginLeft="80px"
+                      android:layout_marginTop="50px"
+            />
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="12$"
+                      android:id="@+id/restaurant_menu_price"
+                      android:fontFamily="@font/main_font"
+                      android:layout_marginLeft="80px"
+                      android:layout_marginTop="20px"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
